@@ -40,11 +40,11 @@ Ich bestätige mit meiner Unterschrift verbindlich, dass ich die Unterweisung zu
 \newcounter{i}
 \setcounter{i}{1}
 
-\newcommand{\leerezeile}{\hspace{2em} \tabularnewcol \hspace{3em} \tabularnewcol \hspace{2.5em} \tabularnewcol \hspace{2.5em} \tabularnewcol \vbox{\vspace{2em}} \tabularnewcol \tabularnewcol \tabularnewcol \tabularnewline \hline}
+\newcommand{\leerezeile}{\hspace{2em} \tabularnewcol \hspace{3em} \tabularnewcol \hspace{2.5em} \tabularnewcol \hspace{2.5em} \tabularnewcol \vbox{\vspace{2em}} \tabularnewcol \tabularnewline \hline}
 
-\begin{tabularx}{\textwidth}{|l|l|l|l|X|X|X|X|}
+\begin{tabularx}{\textwidth}{|l|l|l|l|X|X|}
   \hline
-  \textbf{Nr.} & \textbf{Datum} & \textbf{von} & \textbf{bis} & \textbf{Name} & \textbf{Unterschrift} & \textbf{Einweisender} & \textbf{Unterschrift} \\ \hline
+  \textbf{Nr.} & \textbf{Datum} & \textbf{von} & \textbf{bis} & \textbf{Name} & \textbf{Unterschrift} \\ \hline
   \whiledo{\value{i}<14}%
   {%
     \stepcounter{i} \leerezeile
