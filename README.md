@@ -1,4 +1,4 @@
-Corona Einweisung
+(ARCHIV - zum Glück ist die Zeit vorbei) Corona Einweisung
 ====================
 
 Corona-Regeln des [FAU FabLab](https://fablab.fau.de).
